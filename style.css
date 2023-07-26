@@ -81,6 +81,7 @@ main {
 
 .overview {
     background-color: #fff;
+    opacity: 0.8;
     padding: 2rem;
     position: absolute;
     left: 0;
@@ -93,4 +94,9 @@ main {
 
 .movie:hover .overview {
     transform: translateY(0);
+}
+
+.movie:hover img {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
