@@ -39,3 +39,12 @@ header {
     outline: 0;
     background-color: var(--primary-color);
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie img {
+    width: 100%;
+}
