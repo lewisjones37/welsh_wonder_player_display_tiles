@@ -72,6 +72,13 @@ main {
     margin-top: 0;
 }
 
+.nationality {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: cover;
+    justify-content: flex-end;
+}
+
 .movie-info span {
     background-color: var(--primary-color);
     padding: .25rem 0.5rem;
@@ -89,9 +96,12 @@ main {
     bottom: 0;
     right: 0;
     max-height: 100%;
+    overflow: auto;
     transform: translateY(101%);
     transition: transform 0.3s ease-in;
 }
+
+
 
 .movie:hover .overview {
     transform: translateY(0);
