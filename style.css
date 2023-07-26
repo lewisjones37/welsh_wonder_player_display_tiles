@@ -45,6 +45,10 @@ main {
     flex-wrap: wrap;
 }
 
+.movie {
+    width: 300px;
+}
+
 .movie img {
     width: 100%;
 }
