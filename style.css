@@ -39,6 +39,7 @@ header {
     font-family: inherit;
     font-size: 1rem;
     color: #7378c5;
+    text-decoration: none;
 }
 
 .search {
